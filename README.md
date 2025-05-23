@@ -77,6 +77,3 @@ The best configuration achieved a **median fitness of 0.82**, using:
 
 - Crossover probability: 0.99 (column-wise)  
 - Mutation probability: 0.44 (conflict reduction)
-
----
-

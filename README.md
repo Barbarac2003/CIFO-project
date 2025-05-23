@@ -81,4 +81,40 @@ The best configuration achieved a **median fitness of 0.82**, using:
 ---
 
 ## Repository Structure
+/src
+├── main.py # Main script
+├── selection.py # Selection functions
+├── crossover.py # Crossover functions
+├── mutation.py # Mutation functions
+├── fitness.py # Fitness evaluation
+/data
+└── conflict_matrix.csv # Artist conflict matrix
+/results
+└── performance_graphs.png # Result visualizations
+README.md
+requirements.txt
 
+yaml
+Copiar
+Editar
+
+---
+
+## How to Run
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/music-festival-optimization.git
+cd music-festival-optimization
+pip install -r requirements.txt
+Run the optimization script:
+
+bash
+Copiar
+Editar
+python src/main.py
+Conclusions
+This project demonstrates the effectiveness of genetic algorithms in solving complex real-world scheduling problems. Despite not reaching an ideal conflict-free solution, the algorithm produced solid results with high fitness scores.
+
+Future work could explore alternative methods (e.g., hill-climbing) or refine the conflict model with more realistic fanbase data.
